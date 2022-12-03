@@ -1,0 +1,32 @@
+logger:
+  loglevel: "debug"
+  savePath: "log"
+  maxSize: 5
+  maxAge: 400
+  maxBackups: 1000
+  isCompress: true
+
+database:
+  mysql:
+    addr:
+    port:
+    username:
+    password:
+    db:
+    charset:
+    connMaxIdleTime:
+    connMaxLifeTime:
+    maxIdleConns:
+    maxOpenConns:
+
+redis:
+  addr:
+  port:
+  username:
+  password:
+  db:
+  poolSize: 10000
+
+server:
+  mode:
+  port:
